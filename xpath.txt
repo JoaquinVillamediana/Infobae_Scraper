@@ -1,0 +1,4 @@
+Links = //div[@class="card-container height_100"]//div[@class="bold isText"]/div[@class="hidden_desktop"]/h2/a/@href
+Title = //h1[@class="article-headline | bold width_full"]/text()
+Desc = //div[@class="article-header font_tertiary"]/h2/text()
+Body = //article[@class="article | col widescreen-8 desktop-8 tablet-12 width_full"]/p[@class="font_tertiary paragraph"]//descendant-or-self::text()
